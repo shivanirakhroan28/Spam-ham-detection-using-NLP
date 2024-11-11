@@ -6,6 +6,7 @@ This project classifies messages as either "spam" or "ham" (not spam) using Natu
 3. Text Cleaning: Removing unwanted characters, lowercasing, and basic preprocessing.
 4. Tokenization: Using Keras’s Tokenizer to convert text into sequences of integer tokens.
 5. Padding: Ensuring all sequences have the same length for model compatibility.
+
 **6. Model Building:**
 Constructed an LSTM model with embedding layers for learning word relationships in sequences.
 Compiled with binary cross-entropy loss and the Adam optimizer.
